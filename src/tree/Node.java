@@ -13,4 +13,11 @@ public class Node {
     public void setKey(int key) {
         this.key = key;
     }
+
+    public Node(int key) {
+        this.key = key;
+    }
+
+    public Node() {
+    }
 }
